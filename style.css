@@ -3,7 +3,7 @@
 body {
     font-family: Arial, sans-serif;
     color: white;
-    background-color: #39493D;
+    background-color: #166229;
     margin: 0;
     padding: 0;
   }
@@ -83,7 +83,7 @@ body {
   
   #menu li a {
     display: block; /* rend les liens du menu comme des blocs */
-    background-color: #39493D;
+    background-color: #166229;
     color: #f5f5f5;
     text-align: center;
     padding: 14px 16px;
@@ -116,7 +116,7 @@ body {
     padding: 30px;
     width: 70%;
     background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 1px 1px 15px 0px white;
+    box-shadow: 1px 1px 15px 0px 166229;
   }
 
   /*------Présentation---------*/
