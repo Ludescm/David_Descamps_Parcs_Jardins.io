@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "inter", sans-serif;
     color: white;
-    background-color: #166229;
+    background-color: #39493D;
     margin: 0;
     padding: 0;
   }
@@ -59,6 +59,21 @@ body {
     color: white;
   }
 
+  .bande-blanche{
+    padding: 32px 20px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 1px 1px 15px 0px 166229;
+  }
+
+  #top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+  }
+
   /*--------------------------------------------------------------------------------------*/
 
   header{
@@ -83,7 +98,7 @@ body {
   
   #menu li a {
     display: block; /* rend les liens du menu comme des blocs */
-    background-color: #166229;
+    background-color: #39493D;
     color: #f5f5f5;
     text-align: center;
     padding: 14px 16px;
@@ -117,23 +132,139 @@ body {
     width: 70%;
     background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 1px 1px 15px 0px 166229;
+    display: flex;
+    justify-content: center;
   }
 
   /*------Présentation---------*/
 
   #presentation{
     border: 1px solid white;
+    width: 750px;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 150px;
     margin-right: 150px;
-    padding: 15px;
+    padding: 35px;
     text-align: center;
     white-space: 2px;
     box-shadow:  1px 2px 10px 0px white;
     background-color: #43725e50;
-    border-radius: 20px;
+    border-radius: 5px;
     font-size: large;
     font-weight: 600;
     line-height: 40px;
+  }
+
+
+  /*-----Préstations-----*/
+
+  #prestations div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+
+  #prestations h3{
+    width: 300px;
+    font-size: xx-large;
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    margin-left: 150px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+  }  
+  
+  #prestations h4{
+    margin-top: 50px;
+    font-size: x-large;
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    padding: 20px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 1px 1px 15px 0px 166229;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bloc-image{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+  }
+
+  .bloc-image ul{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 25px;
+  }
+
+  .bloc-image li{
+    width: 450px;
+    height: 400px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cadre-image{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .cadre-image img{
+    border: 1px solid white;
+    height: 350px;
+    width: 100%;
+    box-shadow:  1px 2px 10px 0px white;
+    border-radius: 5px;
+  }
+
+  .cadre-image p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: large;
+  }
+
+  /*-----contact-----*/
+
+  #contact h3{
+    width: 300px;
+    font-size: xx-large;
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    margin-left: 150px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center; 
+  }
+
+  #contact-div{
+    display: flex;
+    justify-content: center;
+  }
+
+  #contact-ul{
+    width: 500px;
+    margin-top: 25px;
+    padding: 25px;
+    margin-bottom: 250px;
+    font-size: x-large;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 1px 1px 15px 0px 166229;
+  }
+
+  #contact-ul i{
+    margin-right: 25px;
+    line-height: 2em;
   }
