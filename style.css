@@ -362,3 +362,15 @@ body {
     display: flex;
     align-items: flex-end;
   }
+
+  /*-----Tablettes-----*/
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* styles pour les tablettes vont ici */
+  }
+
+  /*-----Téléphones-----*/
+
+  @media only screen and (max-width: 767px) {
+    /* styles pour les téléphones vont ici */
+  }
