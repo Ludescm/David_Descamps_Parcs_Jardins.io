@@ -193,20 +193,21 @@ body {
   .bloc-image{
     display: flex;
     justify-content: center;
-    margin-left: 50px;
   }
 
   .bloc-image ul{
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     margin: 25px;
   }
 
   .bloc-image li{
-    width: 450px;
+    width: 400px;
     height: 400px;
     margin: 25px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
   }
 
