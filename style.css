@@ -143,7 +143,7 @@ body {
     width: 750px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 400px;
+    margin-left: 350px;
     margin-right: 350px;
     padding: 35px;
     text-align: center;
@@ -244,7 +244,7 @@ body {
   .bloc-image2{
     display: flex;
     justify-content: center;
-    margin-left: 300px;
+    width: 100%;
   }
 
   .bloc-image2 ul{
