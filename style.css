@@ -191,6 +191,7 @@ body {
   }
 
   .bloc-image{
+    width: 100%;
     display: flex;
     justify-content: center;
   }
@@ -203,7 +204,7 @@ body {
   }
 
   .bloc-image li{
-    width: 400px;
+    width: 450px;
     height: 400px;
     margin: 25px;
     display: flex;
