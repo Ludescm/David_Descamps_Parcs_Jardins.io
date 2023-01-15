@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-    font-family: "inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     color: white;
     background-color: #39493D;
     margin: 0;
@@ -212,7 +212,7 @@ body {
     width: 90%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-flow: column wrap;
 
   }
 
@@ -224,13 +224,17 @@ body {
     border-radius: 5px;
   }
 
+  .cadre-image img:hover{
+    transform: scale(1.12);
+  }
+
   .cadre-image p{
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 25px;
-    font-weight: 500;
     font-size: large;
+
   }
 
   /*-----contact-----*/
@@ -255,11 +259,12 @@ body {
     width: 500px;
     margin-top: 25px;
     padding: 25px;
-    margin-bottom: 250px;
+    margin-bottom: 50px;
     font-size: x-large;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 1px 1px 15px 0px 166229;
   }
@@ -267,4 +272,42 @@ body {
   #contact-ul i{
     margin-right: 25px;
     line-height: 2em;
+  }
+
+  /*-----Footer-----*/
+  
+  footer{
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 25px;
+    padding: 25px;
+    font-size: x-small;
+  }
+
+  #footer-div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  #footer-liens{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer-liens h4{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  #footer-liens a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #footer-copy {
+    display: flex;
+    align-items: flex-end;
   }
